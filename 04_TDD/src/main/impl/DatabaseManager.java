@@ -8,6 +8,7 @@ public class DatabaseManager {
 	
 	public DatabaseManager(ITree<Integer> database)
 	{
+		System.out.println("I'm working on this!");
 		this.database = database;
 	}
 	
@@ -17,6 +18,7 @@ public class DatabaseManager {
 	 */
 	public void save(int data)
 	{
+		System.out.println("I'm working on this!");
 		if(data > 0)
 			database.add(data);
 		else
